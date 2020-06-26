@@ -1,0 +1,112 @@
+@media screen {
+.contenedor {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+.cabecera {
+    font-family: serif,sans-serif;
+    margin: 0 auto;
+}
+.cabecera h1, .cabecera h2 {
+    background: #b6cdf5;
+    font-style: italic;
+    text-align: center;
+    font-weight:bold; 
+    font-size: 30px; 
+    color: #1e1e1e; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0
+    #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3),
+    0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2),
+    0 20px 20px rgba(0,0,0,0.15);
+
+}
+.cabecera img {
+    display:block;
+    margin:auto;
+}
+.slider h2 {
+    font-style: normal;
+    text-align: left;
+}
+.slider h2:hover {
+    text-shadow:3px 2px #7f86ce;
+}
+.slider p {
+    text-indent: 30px;
+    font-style: normal;
+    
+}
+.slider h3 a {
+    font-family:serif,sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-align: left;
+    color:#1e1e1e;
+}
+.slider h3 a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0900ff;
+    font-size: larger;
+    text-shadow:3px 2px #a1b5c9;
+}
+
+.slider table tr td h3 a {
+    font-family:serif,sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-align: left;
+    color:#0c06b0;
+}
+.slider table tr td h3 a:hover {
+    text-decoration: underline;
+    text-shadow:3px 2px #a1b5c9;
+}
+.slider form ul li span{
+    font-style: normal;
+    color:#406385;
+}
+.slider ol li span {
+    font-weight: bold;
+    font-style: normal;
+    color:#79a8d6;
+}
+.slider form input {
+    padding: 0 ;
+    margin: 5px auto;
+}
+.footer a {
+    text-decoration: none;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #6ba8a9;
+    border-radius: 6px;
+    border: 1px outset #5b9596;
+    margin: 5px ;
+} 
+.footer a:hover {
+    text-decoration: underline;
+}
+}
+
+@media print{
+.contenedor{
+    text-decoration:none;
+}
+.cabecera {
+    font-family: serif,sans-serif;
+    margin: 0 auto;
+    color: black;
+}
+.cabecera img {
+    display:block;
+    margin:auto;
+}  
+.footer a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+} 
+}
